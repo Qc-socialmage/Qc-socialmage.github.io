@@ -26,23 +26,23 @@ export default function LandingPage() {
       <section className="py-12 px-6 grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {[
           {
-            src: "/qc-socialmage.github.io/screens/analytics.png", // replace these with clean screen shots withouth the black line
+            src: "/qc-socialmage/screens/analytics.png", // replace these with clean screen shots withouth the black line
             caption: "Clean analytics dashboard" // TODO change caption 
           },
           {
-            src: "/qc-socialmage.github.io/screens/audienceInsights.png", // replace these with clean screen shots withouth the black line
+            src: "/qc-socialmage/screens/audienceInsights.png", // replace these with clean screen shots withouth the black line
             caption: "Streamlined creator insights" // TODO change caption 
           },
           {
-            src: "/qc-socialmage.github.io/screens/brandDeals.png", // replace these with clean screen shots withouth the black line
+            src: "/qc-socialmage/screens/brandDeals.png", // replace these with clean screen shots withouth the black line
             caption: "Brand $ and performance summary" // TODO change caption 
           },
           {
-            src: "/qc-socialmage.github.io/screens/earningsOverview.png", // replace these with clean screen shots withouth the black line
+            src: "/qc-socialmage/screens/earningsOverview.png", // replace these with clean screen shots withouth the black line
             caption: "Campaign performance summary" // TODO change caption 
           },
           {
-            src: "/qc-socialmage.github.io/screens/settings.png", // replace these with clean screen shots withouth the black line
+            src: "/qc-socialmage/screens/settings.png", // replace these with clean screen shots withouth the black line
             caption: "Campaign performance summary" // TODO change caption 
           }
         ].map(({ src, caption }, i) => (
