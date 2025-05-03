@@ -16,7 +16,6 @@ export default function LandingPage() {
       {/* Problem & Solution */}
       <section className="py-16 px-6 text-center max-w-4xl mx-auto">
         <h2 className="text-3xl font-semibold mb-4">Built for Creators, Brands, and Managers</h2>
-        <div className="bg-blue-500 text-white p-4">Tailwind CSS is working! </div>
         <p className="text-lg mb-6">
           Social Mage is a mobile-first influencer marketing platform focused on TikTok. We make it easy to track growth, pitch to brands, and manage campaigns — all with real, useful data.
         </p>
@@ -26,23 +25,23 @@ export default function LandingPage() {
       <section className="py-12 px-6 grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {[
           {
-            src: "/qc-socialmage/screens/analytics.png", // replace these with clean screen shots withouth the black line
+            src: "/Qc-socialmage.github.io/screens/analytics.png", // replace these with clean screen shots withouth the black line
             caption: "Clean analytics dashboard" // TODO change caption 
           },
           {
-            src: "/qc-socialmage/screens/audienceInsights.png", // replace these with clean screen shots withouth the black line
+            src: "/Qc-socialmage.github.io/screens/audienceInsights.png", // replace these with clean screen shots withouth the black line
             caption: "Streamlined creator insights" // TODO change caption 
           },
           {
-            src: "/qc-socialmage/screens/brandDeals.png", // replace these with clean screen shots withouth the black line
+            src: "/Qc-socialmage.github.io/screens/brandDeals.png", // replace these with clean screen shots withouth the black line
             caption: "Brand $ and performance summary" // TODO change caption 
           },
           {
-            src: "/qc-socialmage/screens/earningsOverview.png", // replace these with clean screen shots withouth the black line
+            src: "/Qc-socialmage.github.io/screens/earningsOverview.png", // replace these with clean screen shots withouth the black line
             caption: "Campaign performance summary" // TODO change caption 
           },
           {
-            src: "/qc-socialmage/screens/settings.png", // replace these with clean screen shots withouth the black line
+            src: "/Qc-socialmage.github.io/screens/settings.png", // replace these with clean screen shots withouth the black line
             caption: "Campaign performance summary" // TODO change caption 
           }
         ].map(({ src, caption }, i) => (
