@@ -1,4 +1,6 @@
 import { Button } from "@/components/button";
+import ContactForm from "./ContactForm";
+import SectionLink from "./SectionLink"
 import { Card, CardContent } from "@/components/card";
 
 export default function LandingPage() {
@@ -10,7 +12,9 @@ export default function LandingPage() {
         <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
           Track. Pitch. Grow. Smarter influencer marketing starts here.
         </p>
-        <Button className="text-lg px-8 py-4 rounded-2xl shadow-lg">Join Waitlist</Button>
+        <SectionLink targetId="join-wait-list">
+          <Button className="px-12 py-4 rounded-lg shadow-lg">Join Pre-launch</Button>
+        </SectionLink>
       </section>
 
       {/* Problem & Solution */}
@@ -67,12 +71,12 @@ export default function LandingPage() {
             <p>Updated daily so you're always working with fresh data.</p>
           </div>
           <div>
-            <h3 className="font-semibold text-lg">🤝 Streamlined Brand Pitching</h3>
+            <h3 className="font-semibold text-lg">🤝 Streamlined Brand Pitching/Partnerships</h3>
             <p>Creator profiles and built-in communication for frictionless deals.</p>
           </div>
           <div>
             <h3 className="font-semibold text-lg">💸 Seriously Affordable</h3>
-            <p>Built for creators and small teams — without the big tool price tag.</p>
+            <p>Built for creators and small teams — Enterprise features without the enterprise price tag.</p>
           </div>
         </div>
       </section>
@@ -85,15 +89,15 @@ export default function LandingPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-6 bg-black text-white text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Grow Smarter?</h2>
-        <p className="text-lg mb-8">Join the waitlist and get early access when we launch.</p>
-        <Button className="text-lg px-8 py-4 rounded-2xl shadow-lg bg-white text-black hover:bg-gray-200">Join Waitlist</Button>
+      <section id="join-wait-list" className="py-20 px-6 bg-black text-white text-center">
+        <h2 className="text-3xl md:text-4xl font-bold mb-4">Grow your Brand, Partner with others!</h2>
+        <ContactForm/>
       </section>
 
       {/* Footer */}
       <footer className="py-6 px-6 text-center text-sm text-gray-500">
-        <p>© 2025 Social Mage • <a href="#" className="underline">Privacy Policy</a> • <a href="mailto:hello@socialmage.app" className="underline">Contact</a></p>
+        {/* <p>© 2025 Social Mage • <a href="#" className="underline">Privacy Policy</a> • <a href="mailto:qcopeland.socialmage@gmail.com" className="underline">Contact</a></p> */}
+        <p>© 2025 Social Mage • <a href="mailto:qcopeland.socialmage@gmail.com" className="underline">Contact</a></p>
       </footer>
     </div>
   );
