@@ -19,9 +19,12 @@ export default function LandingPage() {
 
       {/* Problem & Solution */}
       <section className="py-16 px-6 text-center max-w-4xl mx-auto">
-        <h2 className="text-3xl font-semibold mb-4">Built for Creators, Brands, and Managers</h2>
+        <h2 className="text-3xl font-semibold mb-4">Built for Creators and Brands</h2>
         <p className="text-lg mb-6">
-          Social Mage is a mobile-first influencer marketing platform focused on TikTok. We make it easy to track growth, pitch to brands, and manage campaigns — all with real, useful data.
+          Social Mage is a smater way to manage influencer marketing. Creators can track their metrics across platforms like TikTok,
+          Instagram, and more - all in one dashboard. They can discover brand collaborations, pitch themselves profressionally, and monitor
+          earnings over time. Brands can launch campaigns, attract the right creators, and get deep insights into influencer performance and 
+          audiance reach. Whether you're growing your influence or scalling a campaign, Social Mage connecte the right people with the right data
         </p>
       </section>
 
@@ -78,14 +81,21 @@ export default function LandingPage() {
             <h3 className="font-semibold text-lg">💸 Seriously Affordable</h3>
             <p>Built for creators and small teams — Enterprise features without the enterprise price tag.</p>
           </div>
+          <div>
+            <h3 className="font-semibold text-lg">📲 Data accross all socials</h3>
+            <p>Integrations with all the popular social media platforms.</p>
+          </div>
         </div>
       </section>
 
-      {/* User Research Insight */}
+      {/* User Research Insight - TODO see about create carusel for interview testominoals */}
       <section className="py-12 px-6 max-w-3xl mx-auto text-center">
         <blockquote className="italic text-gray-600 text-lg">
-          “In early interviews, creators said they struggle to prove their worth to brands — Social Mage makes that easy.”
+          “In early interviews, creators said, proving your value to brands shouldn't be hard — Social Mage would that easy.”
         </blockquote>
+        {/* <blockquote className="italic text-gray-600 text-lg">
+          “Having a media kit about all my stats and metrics accross my socials - game changing.”
+        </blockquote> */}
       </section>
 
       {/* CTA Section */}
