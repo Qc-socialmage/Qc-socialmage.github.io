@@ -24,9 +24,9 @@ export default function LandingPage() {
         <h2 className="text-3xl font-semibold mb-4">Built for Creators and Brands</h2>
         <p className="text-lg mb-6">
           Social Mage is a smater way to manage influencer marketing! Creators can track their metrics across platforms like TikTok,
-          Instagram, YouTube and more - all in one dashboard,. They can discover brand collaborations, pitch themselves profressionally, and monitor
+          Instagram, YouTube and more - all in one dashboard. They can discover brand collaborations, pitch themselves profressionally, and monitor
           earnings over time. Brands can launch campaigns, attract the right creators, and get deep insights into influencer performance and 
-          audiance reach. Whether you're growing your influence or scalling a campaign, Social Mage connecte the right people with the right data
+          audience reach. Whether you're growing your influence or scailing a campaign, Social Mage connects the right people with the right data
         </p>
       </section>
 
