@@ -24,4 +24,4 @@
 
 - See package.json for details
 
-Happy coding
+Happy coding!
