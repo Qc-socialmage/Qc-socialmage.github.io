@@ -1,6 +1,7 @@
 import ContactForm from "./ContactForm";
 import SectionLink from "./SectionLink"
 import { Card, CardContent } from "@/components/card";
+import TermsPrivacySection from "./TermsPrivacySection";
 
 export default function LandingPage() {
   return (
@@ -176,11 +177,15 @@ export default function LandingPage() {
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Grow your Brand, Partner with others!</h2>
         <ContactForm/>
       </section>
+      
+      <section>
+        <TermsPrivacySection/>
+      </section>
 
       {/* Footer */}
       <footer className="py-6 px-6 text-center text-sm text-gray-500">
         {/* <p>© 2025 Social Mage • <a href="#" className="underline">Privacy Policy</a> • <a href="mailto:qcopeland.socialmage@gmail.com" className="underline">Contact</a></p> */}
-        <p>© 2025 Social Mage • <a href="mailto:qcopeland.socialmage@gmail.com" className="underline">Contact</a></p>
+        <p>© 2025 Social Mage • <a href="mailto:info@socialmage.site" className="underline">Contact</a></p>
       </footer>
     </div>
   );
