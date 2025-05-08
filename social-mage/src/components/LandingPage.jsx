@@ -10,7 +10,7 @@ export default function LandingPage() {
       <section className="py-20 px-6 text-center bg-gradient-to-br from-[#161616] to-[#2b2b2b] text-white">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">Social Mage</h1>
         <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
-          Track. Pitch. Grow. Smarter influencer marketing starts here.
+          Track. Pitch. Grow. Smart influencer marketing starts here.
         </p>
         <SectionLink targetId="join-wait-list">
           <div className="w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 text-center cursor-pointer">
@@ -23,7 +23,7 @@ export default function LandingPage() {
       <section className="py-16 px-6 text-center max-w-4xl mx-auto">
         <h2 className="text-3xl font-semibold mb-4">Built for Creators and Brands</h2>
         <p className="text-lg mb-6">
-          Social Mage is a smater way to manage influencer marketing! Creators can track their metrics across platforms like TikTok,
+          Social Mage is the smart way to manage influencer marketing! Creators can track their metrics across platforms like TikTok,
           Instagram, YouTube and more - all in one dashboard. They can discover brand collaborations, pitch themselves profressionally, and monitor
           earnings over time. Brands can launch campaigns, attract the right creators, and get deep insights into influencer performance and 
           audience reach. Whether you're growing your influence or scailing a campaign, Social Mage connects the right people with the right data
