@@ -4,7 +4,7 @@ const TermsPrivacySection = () => {
   return (
     <div className="bg-gray-100 text-gray-800 px-6=3 py-16 space-y-20">
       {/* Terms of Service */}
-      <section id="terms" className="max-w-4xl mx-auto">
+      <section id="terms" className="max-w-4xl scroll-mt-20 mx-auto">
         <h2 className="text-3xl md:text-6xl font-bold mb-4 text-center">Terms of Service</h2>
         <p className="mb-2 text-left px-8">
           Welcome to Social Mage. By accessing our platform, you agree to the following terms.
@@ -19,7 +19,7 @@ const TermsPrivacySection = () => {
       </section>
 
       {/* Privacy Policy */}
-      <section id="privacy" className="max-w-4xl mx-auto">
+      <section id="privacy" className="max-w-4xl scroll-mt-20 mx-auto">
         <h2 className="text-3xl md:text-6xl font-bold mb-4 text-center">Privacy Policy</h2>
         <p className="mb-2 text-left px-8">
           Social Mage respects your privacy. While we are still finalizing the specifics of the data we will store,

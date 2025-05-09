@@ -178,9 +178,7 @@ export default function LandingPage() {
         <ContactForm/>
       </section>
       
-      <section>
-        <TermsPrivacySection/>
-      </section>
+      <TermsPrivacySection/>
 
       {/* Footer */}
       <footer className="py-6 px-6 text-center text-sm text-gray-500">
