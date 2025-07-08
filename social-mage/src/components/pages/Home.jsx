@@ -1,9 +1,9 @@
-import ContactForm from "./ContactForm";
-import SectionLink from "./SectionLink"
-import { Card, CardContent } from "@/components/card";
-import TermsPrivacySection from "./TermsPrivacySection";
+import ContactForm from "../ContactForm.jsx";
+import SectionLink from "../SectionLink.jsx"
+import { Card, CardContent } from "@/components/Card.jsx";
+import TermsOfService from "./TermsOfService.jsx";
 
-export default function LandingPage() {
+export default function Home() {
   return (
     <div className="min-h-screen bg-white text-gray-900 font-sans">
       {/* Hero Section */}
@@ -58,7 +58,7 @@ export default function LandingPage() {
             },
             {
               src: "/screens/brandDeals.png",
-              caption: "Brand $ and performance summary"
+              caption: "Brand deals and application outreach"
             }
           ].map(({ src, caption }, i) => (
             <Card key={i} className="shadow-lg">
@@ -79,7 +79,7 @@ export default function LandingPage() {
             },
             {
               src: "/screens/settings.png",
-              caption: "Campaign performance summary"
+              caption: "Settings and account management"
             }
           ].map(({ src, caption }, i) => (
             <Card key={i} className="shadow-lg">
@@ -92,7 +92,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/*Ingegrations section */}
+      {/*Integrations section */}
       <section className="py-12 px-6 text-center max-w-5xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-bold mb-4">Integrated With</h2>
         <p className="text-gray-600 mb-6">
@@ -155,7 +155,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* User Research Insight - TODO see about create carusel for interview testominoals */}
+      {/* User Research Insight - TODO see about create carousel for interview testominoals */}
       <section className="py-12 px-6 max-w-3xl mx-auto text-center">
         <h4 className="text-3xl font-semibold mb-4">In Early Interviews</h4>
         {/* <blockquote className="italic text-gray-600 text-lg">
@@ -168,7 +168,7 @@ export default function LandingPage() {
           “There should be a space where creators and brands connect seamlessly, from both sides.”
         </blockquote> */}
         {/* <blockquote className="italic text-gray-600 text-lg">
-          “Having a media kit about all my stats and metrics accross my socials - game changing.”
+          “Having a media kit about all my stats and metrics across my socials - game changing.”
         </blockquote> */}
       </section>
 
@@ -177,8 +177,6 @@ export default function LandingPage() {
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Grow your Brand, Partner with others!</h2>
         <ContactForm/>
       </section>
-      
-      <TermsPrivacySection/>
 
       {/* Footer */}
       <footer className="py-6 px-6 text-center text-sm text-gray-500">
