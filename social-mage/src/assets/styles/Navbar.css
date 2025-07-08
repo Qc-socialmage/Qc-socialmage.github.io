@@ -13,10 +13,6 @@
     font-weight: bold;
 }
 
-.navbar_logo:hover {
-    color: #aca6e1;
-}
-
 .navbar_toggle {
     color: #fff;
     font-size: 1.5rem;
@@ -40,6 +36,12 @@
 
 .navbar_menu.open {
     display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #111;
 }
 
 .navbar_menu a {

@@ -17,7 +17,7 @@ export default function Navbar() {
                 &#9776;
             </button>
 
-            <div className={`navbar_menu ${isOpened ? 'active' : ''}`}>
+            <div className={`navbar_menu ${isOpened ? 'open' : ''}`}>
                 <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/terms">Terms of Service</Link></li>
