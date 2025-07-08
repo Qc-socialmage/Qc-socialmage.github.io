@@ -14,7 +14,7 @@ export default function Navbar() {
                 className="navbar_toggle"
                 onClick={() => setIsOpened(!isOpened)}
             >
-                &#9776; /* hamburger icon */
+                &#9776;
             </button>
 
             <div className={`navbar_menu ${isOpened ? 'active' : ''}`}>
