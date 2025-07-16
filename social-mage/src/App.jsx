@@ -1,13 +1,13 @@
 import Home from './components/pages/Home.jsx';
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import { HashRouter, Route, Routes} from "react-router-dom";
 import TermsOfService from "./components/pages/TermsOfService.jsx";
 import PrivacyPolicy from "./components/pages/PrivacyPolicy.jsx";
 import NotFound from "./components/pages/NotFound.jsx";
-import Navbar from "@/components/navigation/Navbar.jsx";
+import Navbar from "./components/navigation/Navbar.jsx";
 
 function App() {
   return (
-      <BrowserRouter>
+      <HashRouter>
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -15,7 +15,7 @@ function App() {
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
   );
 }
 
